@@ -64,7 +64,7 @@ dbutils.fs.ls("dbfs:/mnt/gcp")
 - Configure table name
 
 ```
-val table = "sbx-9403-projectname-adfsrc.stooge.stooges"
+val table = "projectname.datesetname.tablename"
 // load data from BigQuery
 val df = spark.read.format("bigquery").option("table", table).load()
 ```
