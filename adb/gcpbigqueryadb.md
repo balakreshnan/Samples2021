@@ -30,7 +30,7 @@
 - Now lets go to databricks to start coding
 - Configure the cluster
 
-![alt text](https://github.com/balakreshnan/Accenture/blob/master/images/gcpbigqueryadb2.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Images/gcpbigqueryadb2.jpg "Service Health")
 
 - Let's create notebook
 
@@ -40,15 +40,15 @@ val accbbstorekey = dbutils.secrets.get(scope = "allsecrects", key = "accbbstore
 
 ```
 spark.conf.set(
-  "fs.azure.account.key.accbbstore.blob.core.windows.net",
+  "fs.azure.account.key.storageaccount.blob.core.windows.net",
   accbbstorekey)
 ```
 
 ```
 dbutils.fs.mount(
-  source = "wasbs://pmt@accbbstore.blob.core.windows.net/conf",
+  source = "wasbs://containername@storageaccount.blob.core.windows.net/conf",
   mountPoint = "/mnt/gcp",
-  extraConfigs = Map("fs.azure.account.key.accbbstore.blob.core.windows.net" -> dbutils.secrets.get(scope = "allsecrects", key = "accbbstore")))
+  extraConfigs = Map("fs.azure.account.key.storageaccount.blob.core.windows.net" -> dbutils.secrets.get(scope = "allsecrects", key = "accbbstore")))
 ```
 
 ```
@@ -75,7 +75,7 @@ val df = spark.read.format("bigquery").option("table", table).load()
 display(df)
 ```
 
-![alt text](https://github.com/balakreshnan/Accenture/blob/master/images/gcpbigqueryadb3.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Images/gcpbigqueryadb3.jpg "Service Health")
 
 - unmount the dbfs
 
