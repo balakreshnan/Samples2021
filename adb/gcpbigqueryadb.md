@@ -1,4 +1,4 @@
-# Azure Google Big Query query using Azure data bricks
+# Azure Data bricks query Google Big Query
 
 ## Azure Databricks to access big query
 
