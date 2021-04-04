@@ -112,6 +112,8 @@ y_pred = ppl.predict(X_test)
 print(classification_report(y_test, y_pred))
 ```
 
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/tsfresh/images/tsfresh1.jpg "Service Health")
+
 - display the features:
 
 ```
@@ -150,4 +152,4 @@ y_pred = ppl.predict(X_test)
 ```
 print(classification_report(y_test, y_pred))
 ```
-
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/tsfresh/images/tsfresh2.jpg "Service Health")
