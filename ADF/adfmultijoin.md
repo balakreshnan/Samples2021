@@ -16,6 +16,13 @@ Here i am considering a sql select query with 5 joins. i have one fact and 4 dim
 
 ## Steps
 
+- Data is available in data folder
+- there should be 5 folder
+    - fact
+    - dimcountryname
+    - dimRace
+    - dimsex
+    - dimstate
 - First create a pipeline
 - Create a New data flow
 - connect to fact first as source
