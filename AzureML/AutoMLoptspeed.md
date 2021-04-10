@@ -21,4 +21,28 @@
 - Same dataset
 - Same regression model
 - Same default configuration
+- Compute cluster details
 
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto2.jpg "Service Health")
+
+- Computer cluster running details
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto4.jpg "Service Health")
+
+- Nodes status
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto3.jpg "Service Health")
+
+- Run Comparsion
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto1.jpg "Service Health")
+
+- First run was 3 hours
+- Second run was 23 minutes
+- Default compute run with 4 nodes configuration
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto7.jpg "Service Health")
+
+- Configuration for F16
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto6.jpg "Service Health")
