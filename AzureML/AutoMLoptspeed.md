@@ -46,3 +46,8 @@
 - Configuration for F16
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto6.jpg "Service Health")
+
+- Ran the AutoML one more time to see how it runs
+- Close to 27 mins
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureML/images/amlexpauto8.jpg "Service Health")
