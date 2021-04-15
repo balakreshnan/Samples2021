@@ -35,6 +35,14 @@
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/graphapi2.jpg "Service Health")
 
+- Go to Advanced option
+- Select managed identity
+- In the URL box paste the below
+
+```
+https://vault.azure.net
+```
+
 - Assign the output to variable
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/graphapi3.jpg "Service Health")
@@ -43,13 +51,33 @@
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/graphapi4.jpg "Service Health")
 
+- Go to Advanced option
+- Select managed identity
+- In the URL box paste the below
+
+```
+https://vault.azure.net
+```
+
 - Assign to clientsecret variable
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/graphapi5.jpg "Service Health")
 
 - Now time to get the authoriazation token to use for microsoft graph
+- in URL field
+
+```
+https://login.microsoftonline.com/tenantid/oauth2/v2.0/token
+```
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/graphapi6.jpg "Service Health")
+
+- here is the code for request body
+- Body text is formed by concating client id and secret with tenant id and scope
+
+```
+@concat(concat('tenant=tenantid&client_id=',variables('clientid'),'&client_secret='),variables('clientsecret'),'&grant_type=client_credentials&scope=https://graph.microsoft.com/.default')
+```
 
 - Assign the token to variable called token
 
