@@ -28,6 +28,7 @@
 - if the performance is acceptable move forward, other wise go back to model development
 - Once acceptable performance is good create score script for realtime or batch inference
 - Create Evaluate or model compare script from previous run
+- Scoring script to check for model performance to trigger new model build
 - Save all the scripts in Github or some code repository
 - Create documentation on use case, model and it's usage
 
@@ -45,3 +46,4 @@
 - Create Docker container to run the Microservice
 - Create the container orchestration enginer (if new), other wise use existing
 - Deploy the new Rest API and decommision the old one (if exists)
+- When score model is used if performance degrade create a model train run and deployment
