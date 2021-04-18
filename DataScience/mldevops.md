@@ -4,7 +4,7 @@
 
 | Software/data/BI applications                  | DataScience Application - Machine Learning and AI             |
 |------------------------------------------------|---------------------------------------------------------------|
-| Devlopment environment can have fake data      | Development environment need's production actual data         |
+| Development environment can have fake data      | Development environment need's production actual data         |
 | Can have small subset of data to develop logic | Volume of data is high                                        |
 | Don't need large volume of data                | Time consuming based on how much data is used to build models |
 | Don't need production data                     | Iterative process                                             |
