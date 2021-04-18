@@ -2,14 +2,7 @@
 
 ## Difference
 
-| Software/data/BI applications                  | DataScience Application - Machine Learning and AI             |
-|------------------------------------------------|---------------------------------------------------------------|
-| Development environment can have fake data     | Development environment need's production actual data         |
-| Can have small subset of data to develop logic | Volume of data is high                                        |
-| Don't need large volume of data                | Time consuming based on how much data is used to build models |
-| Don't need production data                     | Iterative process                                             |
-| Low compute power                              | Need large compute power                                      |
-| Mostly cpu based                               | GPU/FPGA/Tensor                                               |
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/DataScience/images/ds1.jpg "Service Health")
 
 ## Development
 
