@@ -52,7 +52,7 @@ namespace formprocessing.Function
         private static readonly AzureKeyCredential credential = new AzureKeyCredential(apiKey);
 
         [FunctionName("BlobTriggerCSharp1")]
-        public async static void Run([BlobTrigger("pdfinputpython/{name}", Connection = "cushwakestorage_STORAGE")]Stream myBlob, [Blob("pdfoutput/{name}", FileAccess.Write)] Stream outputcsv, string name, ILogger log)
+        public async static void Run([BlobTrigger("pdfinputpython/{name}", Connection = "cogstorage_STORAGE")]Stream myBlob, [Blob("pdfoutput/{name}", FileAccess.Write)] Stream outputcsv, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
             var credential = new AzureKeyCredential(apiKey);
