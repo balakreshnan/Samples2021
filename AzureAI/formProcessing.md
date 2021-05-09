@@ -2,6 +2,10 @@
 
 ## Using Form Recognizer - Cognitive Services
 
+## Architecture
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/aisamples.jpg "Service Health")
+
 ## Steps
 
 - Create a Azure Acoount
