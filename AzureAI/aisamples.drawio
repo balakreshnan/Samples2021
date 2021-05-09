@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T11:57:18.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" version="14.6.1" etag="JCnvz2IYdPXtukyK1fQ_" type="github"><diagram id="tbnyqtQ0O0OaAFDpFtwZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-09T12:18:02.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" etag="ztkjfSoSiKiIoYnsfj47" version="14.6.1" type="github">
+  <diagram id="tbnyqtQ0O0OaAFDpFtwZ" name="FormReco">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BBOFK0GGw9M64spJGups-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.016;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BBOFK0GGw9M64spJGups-1" target="BBOFK0GGw9M64spJGups-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="227" />
+              <mxPoint x="410" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ClassicStorage.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="50" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.552;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BBOFK0GGw9M64spJGups-2" target="BBOFK0GGw9M64spJGups-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="283" />
+              <mxPoint x="328" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="BBOFK0GGw9M64spJGups-2" target="BBOFK0GGw9M64spJGups-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="425" y="213" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="223" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-7" value="Blob Trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-8" value="Funtions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-9" value="Form Recognizer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="518" y="202" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BBOFK0GGw9M64spJGups-10" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="285" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
