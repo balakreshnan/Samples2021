@@ -269,3 +269,51 @@ from azureml.core import Experiment
 pipeline_run1 = Experiment(ws, 'Titanic_Pipeline_Notebook').submit(pipeline1)
 pipeline_run1.wait_for_completion()
 ```
+
+- Now lets publish the pipeline
+- Every publish will create a REST endpoint
+
+```
+published_pipeline1 = pipeline_run1.publish_pipeline(
+     name="Published_Titanic_Pipeline_Notebook",
+     description="Titanic_Pipeline_Notebook Published Pipeline Description",
+     version="1.0")
+```
+
+- I logged into the Azure ML Studio
+- Go to Pipeline on the left menu
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline1.jpg "Service Health")
+
+- Click on pipeline endpoint
+- should see a pipeline - Published_Titanic_Pipeline_Notebook
+- Click submit and see if the pipeline line runs
+- Now go to ADF or Synapse Integrate
+- Create a New pipeline
+- Name is AzureMLPipelinetest
+- Drag and drop Azure Machine learning services (only to run published pipeline)
+- Create a New Source for Azure Machine learning using service principal account
+
+```
+Make sure you have service principal created and permission provided
+```
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline3.jpg "Service Health")
+
+- Now configure the pipeline
+- You should see that in the drop down list
+- Select the first Pipline ID available
+- Commit or save changes and click debug to run
+- Wait for the debug to finish and see below picture
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline4.jpg "Service Health")
+
+- Now go to AzureML studio
+- Open Experiment and click the Titanic_Pipeline_Notebook
+- Should see the latest run
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline5.jpg "Service Health")
+
+- Go back to Synapse integrate and click details on debug run to view experiment run
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline6.jpg "Service Health")
