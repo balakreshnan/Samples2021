@@ -298,11 +298,14 @@ published_pipeline1 = pipeline_run1.publish_pipeline(
 Make sure you have service principal created and permission provided
 ```
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline3.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline2.jpg "Service Health")
 
 - Now configure the pipeline
 - You should see that in the drop down list
 - Select the first Pipline ID available
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureMLPipelineNotebook/images/pipeline3.jpg "Service Health")
+
 - Commit or save changes and click debug to run
 - Wait for the debug to finish and see below picture
 
