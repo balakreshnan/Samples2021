@@ -75,3 +75,13 @@ SequenceNumber,Offset,EnqueuedTimeUtc,SystemProperties,Properties,Body,BodyNew
 - Expand the telemetry column and see if you can see the sensor details
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/avrodf7.jpg "Service Health")
+
+- Create a Integrate pipeline
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/avrodf9.jpg "Service Health")
+
+- Create a data flow and select the above before
+- Click debug
+- Click and view the details
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/ADF/images/avrodf10.jpg "Service Health")
