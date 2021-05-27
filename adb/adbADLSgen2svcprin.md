@@ -5,6 +5,8 @@
 ## Use case
 
 - Access securely data in ADLS gen2 with HNS enabled
+- Using DFS endpoint to improve performance
+- Ability to use Service principal to access
 
 ## Steps
 
