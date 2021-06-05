@@ -17,6 +17,7 @@ df.pivot(index='foo', columns='bar', values='baz')
 
 ```
 minutes=df.resample('1Min',on='Date').mean().dropna()
+df2.groupby(pd.Grouper(key='time',freq='1min')).mean()
 ```
 
 - Do mean or average
