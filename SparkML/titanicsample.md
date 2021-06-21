@@ -1,4 +1,4 @@
-# Spark Classfication model to predict titanic survivors
+# Spark Classification model to predict titanic survivors
 
 ## Spark code to predict classification for practical dataset - titanic survivor dataset
 
@@ -8,7 +8,7 @@
 - Dataset is available in this folder called Titanic.csv
 - Upload the data set to Azure storage
 
-## Prerequistie
+## Prerequisite
 
 - Azure account
 - Azure storage account
