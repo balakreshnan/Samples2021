@@ -1,4 +1,4 @@
-# Spark Classfication model to predict titanic survirors
+# Spark Classfication model to predict titanic survivors
 
 ## Spark code to predict classification for practical dataset - titanic survivor dataset
 
