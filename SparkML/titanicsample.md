@@ -56,6 +56,8 @@ titanicds = spark.read.option("header","true").option("inferSchema", "true").csv
 display(titanicds)
 ```
 
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/SparkML/images/titanic1.jpg "Service Health")
+
 - Display the schema for dataset
 
 ```
@@ -69,6 +71,13 @@ display(titanicds.printSchema())
 ```
 titanicds1 = titanicds.na.fill(0)
 ```
+
+```
+display(titanicds1)
+```
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/SparkML/images/titanic2.jpg "Service Health")
+
 
 - Convert all categorical columns to string index
 
@@ -95,6 +104,8 @@ for categoricalCol in categoricalColumns:
     #append the string Indexer to our list of stages
     stages += [stringIndexer]
 ```
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/SparkML/images/titanic3.jpg "Service Health")
 
 - now create the label indexer
 - Create the vector assembler for numeric data.
@@ -150,3 +161,7 @@ print("Test Error = %g" % (1.0 - accuracy))
 rfModel = model.stages[2]
 print(rfModel)  # summary only
 ```
+
+- output
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/SparkML/images/titanic4.jpg "Service Health")
