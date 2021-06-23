@@ -13,12 +13,19 @@
 
 ## Archtiecture
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Architecture/images/AzureDataRefArch.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Architecture/images/AzureDataRefArch1.jpg "Service Health")
 
 ## Explained
 
 - Architecture follows from left to right
 - From On premise to Cloud in a secure way
+
+## Data Source
+
+- Onpremise data sources
+- Cloud data sources
+- IoT/Ind IoT devices
+- AI-IoT Devices
 
 ### Ingestion
 
