@@ -1,6 +1,6 @@
-# Azure Data platform architecture - Analytics
+# Azure Data/AI platform architecture - Analytics
 
-## Analytical data platform reference archtiecture
+## Analytical Data/AI platform reference archtiecture
 
 ## Use Case
 
