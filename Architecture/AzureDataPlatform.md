@@ -13,7 +13,7 @@
 
 ## Archtiecture
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Architecture/images/AzureDataRefArch4.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Architecture/images/AzureDataRefArch5.jpg "Service Health")
 
 ## Explained
 
