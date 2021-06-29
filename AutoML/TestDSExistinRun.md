@@ -76,3 +76,5 @@ df = dataset.to_pandas_dataframe()
 result = pd.concat([df, predictions_df], axis=1, join="inner")
 result
 ```
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/testdataset1.jpg "Service Health")
