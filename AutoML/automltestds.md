@@ -250,7 +250,22 @@ print(predictions.to_pandas_dataframe().head())
 pd.DataFrame.from_dict(test_run_metrics, orient='index', columns=['Value'])
 ```
 
+- New approach
 - get the predictions
+
+```
+df = validation_data.to_pandas_dataframe()
+```
+
+```
+predictions_df = predictions.to_pandas_dataframe()
+```
+
+```
+result = pd.concat(df, predictions_df, axis=1, join="inner")
+```
+
+- get the predictions - Only to get the test run for model training run
 
 ```
 import pandas as pd
@@ -270,4 +285,3 @@ df = dataset.to_pandas_dataframe()
 ```
 result = pd.concat([df, predictions_df], axis=1, join="inner")
 ```
-
