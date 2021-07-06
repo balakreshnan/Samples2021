@@ -117,3 +117,47 @@
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml19.jpg "Service Health")
 
+- Once completed should look like below
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml20.jpg "Service Health")
+
+- Click Models to see all the model run
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml21.jpg "Service Health")
+
+- Select the Model with View explaination since that is the best model
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml22.jpg "Service Health")
+
+- Now click Explaination tab and see the details
+- This is where black box is opened and show which features contributed to the prediction
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml23.jpg "Service Health")
+
+- Now click the metric to view
+- Precision-Recall
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml24.jpg "Service Health")
+
+- ROC Curve
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml25.jpg "Service Health")
+
+- Calibration Curve
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml26.jpg "Service Health")
+
+- Lift Curve
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml27.jpg "Service Health")
+
+- Cumulative Gains Curve
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml28.jpg "Service Health")
+
+- Logs are available
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/OpenHackAutoML/images/titautoml29.jpg "Service Health")
+
+- Modelling is complete
+- Next deploy the model. To be continued.
