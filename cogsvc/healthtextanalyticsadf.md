@@ -87,6 +87,10 @@ https://servicename.cognitiveservices.azure.com/text/analytics/v3.1-preview.5/en
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/cogsvc/images/imgh7.jpg "Service Health")
 
+```
+@concat('https://servicename.api.cognitive.microsoft.com/text/analytics/v3.1-preview.5/entities/health/jobs/',variables('jobid'))
+```
+
 - write the results to Azure SQL using stored procedure
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/cogsvc/images/imgh8.jpg "Service Health")
