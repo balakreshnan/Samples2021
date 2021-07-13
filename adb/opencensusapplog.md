@@ -68,4 +68,10 @@ except Exception:
     logger.exception('Captured an exception.', extra=properties)
 ```
 
+- log into application insights
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/adb/images/opencensus3.jpg "Service Health")
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/adb/images/opencensus4.jpg "Service Health")
+
 - the above test for done from - https://docs.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python#configure-azure-monitor-exporters
