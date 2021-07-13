@@ -27,7 +27,7 @@ dependencies:
     - opencensus-ext-azure
 ```
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/adb/images/opencensus1.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/Synapseworkspace/images/opencensus1.jpg "Service Health")
 
 - Create a notebook
 
