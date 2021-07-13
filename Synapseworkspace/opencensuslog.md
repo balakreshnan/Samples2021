@@ -1,4 +1,4 @@
-# Azure Databricks logs runtime errors to Application insights
+# Azure Synapse Spark logs runtime errors to Application insights
 
 ## Using open census library to push error logs to Azure monitor
 
@@ -10,7 +10,7 @@
 
 ## Steps
 
-- Create a Databricks cluster
+- Create a Spark cluster
 - install library
 - create a conda file and upload
 - Create a environment.yml
