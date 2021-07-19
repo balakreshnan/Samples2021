@@ -15,6 +15,10 @@
 - Audio file should be pdf format
 - Audio file cannot be too big
 
+## Full Flow
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/form11.jpg "Service Health")
+
 ## Logic apps
 
 - First create a trigger from Blob
