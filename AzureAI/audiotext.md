@@ -240,6 +240,77 @@ https://cogsvcnmae.cognitiveservices.azure.com/text/analytics/v3.1/entities/reco
 - Headers - Content-Type
 - Body - Content from compose output
 
+- Now bring parseJSON
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/stotext25.jpg "Service Health")
+
+```
+{
+    "type": "object",
+    "properties": {
+        "documents": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "redactedText": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "entities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "text": {
+                                    "type": "string"
+                                },
+                                "category": {
+                                    "type": "string"
+                                },
+                                "offset": {
+                                    "type": "integer"
+                                },
+                                "length": {
+                                    "type": "integer"
+                                },
+                                "confidenceScore": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "text",
+                                "category",
+                                "offset",
+                                "length",
+                                "confidenceScore"
+                            ]
+                        }
+                    },
+                    "warnings": {
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "redactedText",
+                    "id",
+                    "entities",
+                    "warnings"
+                ]
+            }
+        },
+        "errors": {
+            "type": "array"
+        },
+        "modelVersion": {
+            "type": "string"
+        }
+    }
+}
+```
+
 - now bring delete
 - blob name: textpii.json
 
@@ -262,6 +333,103 @@ https://cogsvcnmae.cognitiveservices.azure.com/text/analytics/v3.1/sentiment
 - Headers - Content-Type
 - Body - Content from compose output
 
+- Bring parseJSON
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/stotext26.jpg "Service Health")
+
+```
+{
+    "type": "object",
+    "properties": {
+        "documents": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "sentiment": {
+                        "type": "string"
+                    },
+                    "confidenceScores": {
+                        "type": "object",
+                        "properties": {
+                            "positive": {
+                                "type": "number"
+                            },
+                            "neutral": {
+                                "type": "number"
+                            },
+                            "negative": {
+                                "type": "number"
+                            }
+                        }
+                    },
+                    "sentences": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "sentiment": {
+                                    "type": "string"
+                                },
+                                "confidenceScores": {
+                                    "type": "object",
+                                    "properties": {
+                                        "positive": {
+                                            "type": "number"
+                                        },
+                                        "neutral": {
+                                            "type": "number"
+                                        },
+                                        "negative": {
+                                            "type": "number"
+                                        }
+                                    }
+                                },
+                                "offset": {
+                                    "type": "integer"
+                                },
+                                "length": {
+                                    "type": "integer"
+                                },
+                                "text": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "sentiment",
+                                "confidenceScores",
+                                "offset",
+                                "length",
+                                "text"
+                            ]
+                        }
+                    },
+                    "warnings": {
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "id",
+                    "sentiment",
+                    "confidenceScores",
+                    "sentences",
+                    "warnings"
+                ]
+            }
+        },
+        "errors": {
+            "type": "array"
+        },
+        "modelVersion": {
+            "type": "string"
+        }
+    }
+}
+```
+
 - now bring delete
 - blob name: textsentiment.json
 
@@ -283,6 +451,76 @@ https://cogsvcnmae.cognitiveservices.azure.com/text/analytics/v3.1/entities/reco
 - Provide Header - Ocp-Apim-Subscription-Key
 - Headers - Content-Type
 - Body - Content from compose output
+
+- Bring parseJSON
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/stotext27.jpg "Service Health")
+
+```
+{
+    "type": "object",
+    "properties": {
+        "documents": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "entities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "text": {
+                                    "type": "string"
+                                },
+                                "category": {
+                                    "type": "string"
+                                },
+                                "subcategory": {
+                                    "type": "string"
+                                },
+                                "offset": {
+                                    "type": "integer"
+                                },
+                                "length": {
+                                    "type": "integer"
+                                },
+                                "confidenceScore": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "text",
+                                "category",
+                                "offset",
+                                "length",
+                                "confidenceScore"
+                            ]
+                        }
+                    },
+                    "warnings": {
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "id",
+                    "entities",
+                    "warnings"
+                ]
+            }
+        },
+        "errors": {
+            "type": "array"
+        },
+        "modelVersion": {
+            "type": "string"
+        }
+    }
+}
+```
 
 - now bring delete
 - blob name: textentities.json
