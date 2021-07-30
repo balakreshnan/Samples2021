@@ -81,6 +81,8 @@ def run(Inputs):
 {"PassengerId":"1","Pclass":"3","Name":"Braund Mr. Owen Harris","Sex":"male","Age":"40","SibSp":"1","Parch":"0","Ticket":"A/5 21171","Fare":"7.25","Cabin":"c","Embarked":"S"}]
 ```
 
+## batch or manual scoring
+
 - create a new notebook
 
 ```
@@ -128,3 +130,23 @@ df = data.to_numpy()
 for i in range(len(df)):
     print("X=%s, Predicted=%s" % (df[i], result[i]))
 ```
+
+## RESP API deployment
+
+- Create a aks cluster
+- Minimum of 12 cores is needed
+- Deploy the automate ML model with custom configuration
+- Score environment and score file are available in folder called RESTScoreFiles
+- Deploy the rest service
+- Will take few minutes
+- Once deployment is succesful then test the services
+- sample data
+
+```
+PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,3,Braund Mr. Owen Harris,male,22,1,0,A/5 21171,7.25,null,S
+```
+
+- the below image should show the probabilities
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/amlproba1.jpg "Service Health")
