@@ -73,4 +73,53 @@
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img9.jpg "Service Health")
 
 - as the above image the user enters date and we can process further.
-- More to come ...
+
+- Create a publish profile
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img10.jpg "Service Health")
+
+- Select option 1
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img11.jpg "Service Health")
+
+- Click Next and deselct QNA maker
+- Keep remaining options
+- Click Create and wait for profile to create
+- You need to have permission to publish
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img12.jpg "Service Health")
+
+- Go to Publish
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img13.jpg "Service Health")
+
+- Select the app and in profiles drop down click the new one create
+- Submit
+
+- Now log into www.twilio.com
+- Create a free account
+- Buy a phone number for $1
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img14.jpg "Service Health")
+
+- Setup the messaging API
+
+```
+https://sms.botframework.com/api/sms
+```
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img15.jpg "Service Health")
+
+- Now send an text to the number created with message
+
+```
+can't make it
+```
+
+- Should get a response back to ask for date and time
+- Type the date and time as one sentence
+- Now you should see some responses
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/img16.jpg "Service Health")
+
+- Done
