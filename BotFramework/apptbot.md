@@ -13,6 +13,10 @@
 - Need LUIS
 - Now it's build it
 
+## Architecture
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/BotFramework/images/BotcomposerArch.jpg "Service Health")
+
 ## Code
 
 - Create a resource group
