@@ -1,4 +1,4 @@
-# Azure Synapse Analytics - End to End for Automated ML using Azure Machine learning
+# Azure Synapse Analytics - End to End with Synapse Spark for Training
 
 ## Move Data, Process Data, Train a model using Azure Synapse Analytics Workspace
 
@@ -12,7 +12,6 @@
 
 - Azure Account
 - Azure synapse analytics workspace
-- Azure Machine learning workspace
 - Azure SQL Database
 - Azure Storage
 - Download Covid19 data from kaggel and import into Azure SQL as external source simulated data
