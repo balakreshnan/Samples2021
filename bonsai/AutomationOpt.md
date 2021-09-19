@@ -27,3 +27,10 @@
 - link to accelerators
 - https://github.com/microsoft/bonsai-solution-accelerators
 - https://docs.microsoft.com/en-us/autonomous-systems/bonsai-accelerators/overview/model/abca-model-overview#simulation-process-flow
+
+- Factory Logistics
+    - https://docs.microsoft.com/en-us/autonomous-systems/bonsai-accelerators/overview/model/abca-model-overview
+- Building Energy management
+    - https://docs.microsoft.com/en-us/autonomous-systems/bonsai-accelerators/overview/accelerator/building-energy-management
+- Chemical Processing
+    - https://docs.microsoft.com/en-us/autonomous-systems/bonsai-accelerators/what-are-bonsai-accelerators?tabs=chemical-processing
