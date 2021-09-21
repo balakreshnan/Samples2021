@@ -42,12 +42,12 @@
 - Wanted to train a RL model 
 - Here is the model
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample1.png "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample1.jpg "Service Health")
 
 - Save and Run Train
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample2.png "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample2.jpg "Service Health")
 
 - Finally Export the model
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample3.png "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/bonsai/images/bonsaisample3.jpg "Service Health")
