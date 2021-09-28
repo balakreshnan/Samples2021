@@ -88,4 +88,7 @@
 - Get the prediction URL from customvision.ai web site
 - Make sure the content-type and prediction-key are sent
 - All the output are stored in blob storage as json
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/covidvaccine/images/cv10.jpg "Service Health")
+
 - we can do further processing based on requirements and use case
