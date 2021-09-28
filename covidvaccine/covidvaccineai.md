@@ -61,3 +61,31 @@
 - Once we have the above 2 model ready then we can now automate the processing end to end
 - I choose logic app to show the process
 - This is not the end complete solution
+
+- Entire flow
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/covidvaccine/images/cv7.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/covidvaccine/images/cv8.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/covidvaccine/images/cv9.jpg "Service Health")
+
+- i am using blob SAS with expiration for security purpose
+- Trigger the logic with blob trigger
+- Create a variable to store form recognizer output URL - header - operation-location
+- Using All HTTP rest connector
+- make sure you have the prediction keys for both Form recognizer and custom vision
+- For Form recognizer it's a 2 step process
+- First send the request to analze
+- then wait for 15 seconds
+- send the analyzeresult url from previous header
+- Make sure content-type and Ocp-Apim-Subscription-Key are sent
+
+```
+@{outputs('HTTP')['headers']?['Operation-Location']}
+```
+
+- the above is to get the output of HTTP header for analyze request
+- Then send the blob SAS URI to custom vision prediction URL
+- Get the prediction URL from customvision.ai web site
+- Make sure the content-type and prediction-key are sent
+- All the output are stored in blob storage as json
+- we can do further processing based on requirements and use case
