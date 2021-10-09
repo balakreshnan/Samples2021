@@ -20,7 +20,7 @@
 
 ## Code
 
-- First create a databricks cluster
+- First create a spark cluster
 - install cryptography library
 - Create environment.yaml file
 
