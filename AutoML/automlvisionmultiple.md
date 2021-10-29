@@ -316,6 +316,22 @@ automl_image_run = experiment.submit(automl_image_config)
 automl_image_run.wait_for_completion(wait_post_processing=True)
 ```
 
+- Go to Experiment and examine the run
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/multimodelautovisio1.jpg "Service Health")
+
+- Now go to child run and see the results
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/multimodelautovisio2.jpg "Service Health")
+
+- Go to Child run and see the results
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/multimodelautovisio3.jpg "Service Health")
+
+- See all the runs
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AutoML/images/multimodelautovisio4.jpg "Service Health")
+
 - Next to follow the steps to get the best model
 
 ```
