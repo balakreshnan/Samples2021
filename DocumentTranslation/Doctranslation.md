@@ -43,16 +43,16 @@ https://cognitivesvcname.cognitiveservices.azure.com/translator/text/batch/v1.0/
   "inputs": [
     {
       "source": {
-        "sourceUrl": "https://storagename.blob.core.windows.net/translateinput?sp=racwl&st=2020-10-19T21:27:53Z&se=2020-10-21T05:27:53Z&spr=https&sv=2020-08-04&sr=c&sig=3OcJ9GoBJPfZEfJ%2BsWRfv8ALDEh6BEM%2Fd3NAYTh4oTI%3D"
+        "sourceUrl": "https://storagename.blob.core.windows.net/translateinput?sp=racwl&st=2020-10-19T21:27:53Z&se=2020-10-21T05:27:53Z&spr=https&sv=2020-08-04&sr=c&sig=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       },
       "targets": [
         {
           "language": "fr",
-          "targetUrl": "https://storagename.blob.core.windows.net/translateoutput?sp=racwl&st=2020-10-19T21:29:02Z&se=2020-10-21T05:29:02Z&spr=https&sv=2020-08-04&sr=c&sig=9cqZlvpvrZQVzBAzzhYK89pLC319Z8viXlTtev%2BQ3LM%3D"
+          "targetUrl": "https://storagename.blob.core.windows.net/translateoutput?sp=racwl&st=2020-10-19T21:29:02Z&se=2020-10-21T05:29:02Z&spr=https&sv=2020-08-04&sr=c&sig=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         },
         {
           "language": "id",
-          "targetUrl": "https://storaegname.blob.core.windows.net/translateoutput?sp=racwl&st=2020-10-19T21:29:02Z&se=2020-10-21T05:29:02Z&spr=https&sv=2020-08-04&sr=c&sig=9cqZlvpvrZQVzBAzzhYK89pLC319Z8viXlTtev%2BQ3LM%3D"
+          "targetUrl": "https://storaegname.blob.core.windows.net/translateoutput?sp=racwl&st=2020-10-19T21:29:02Z&se=2020-10-21T05:29:02Z&spr=https&sv=2020-08-04&sr=c&sig=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         }
       ]
     }
