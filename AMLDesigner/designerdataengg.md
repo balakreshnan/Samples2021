@@ -135,8 +135,8 @@
 
 - Roc Curve
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AMLDesigner/images/designer21.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AMLDesigner/images/designer22.jpg "Service Health")
 
 - Confusion Matrix
 
-![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AMLDesigner/images/designer22.jpg "Service Health")
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AMLDesigner/images/designer23.jpg "Service Health")
