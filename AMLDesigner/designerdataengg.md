@@ -8,6 +8,15 @@
 - Azure Storage
 - Azure Machine learning Service
 
+## Introduction
+
+- This tutorial is only to show how to do data engineering in Azure Machine Learning Service using designer.
+- Data used is Titanic dataset. which is a famous dataset in Machine Learning.
+- Open source dataset is used here.
+- Every task or flow item has parameters and output
+- After run every task output can be visualized
+- Output will change based on the task or flow item
+
 ## Overall flow
 
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AMLDesigner/images/designer1.jpg "Service Health")
