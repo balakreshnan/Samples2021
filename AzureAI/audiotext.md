@@ -1,4 +1,4 @@
-# Process Speech and convert to Text
+# Call center - Process Speech and convert to Text
 
 ## Using Azure Cognitive Services Speech to Text and Logic apps
 
@@ -15,6 +15,10 @@
 - Audio file should be wav format
 - Audio file cannot be too big
 - Audio time 10 min
+
+## Architecture
+
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/callcenteraudit.jpg "Service Health")
 
 ## Logic apps
 

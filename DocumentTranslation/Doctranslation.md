@@ -15,6 +15,10 @@
 
 ## Architecture
 
+![alt text](https://github.com/balakreshnan/Samples2021/blob/main/AzureAI/images/documenttranslation.jpg "Service Health")
+
+## Flow
+
 ![alt text](https://github.com/balakreshnan/Samples2021/blob/main/DocumentTranslation/images/doctrans1.jpg "Service Health")
 
 ## Steps
