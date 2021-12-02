@@ -67,6 +67,10 @@ titanic_labels = titanic_features.pop('Survived')
 ```
 
 ```
+df.drop('Name', axis=1, inplace=True)
+```
+
+```
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import sklearn as sk
 ```
